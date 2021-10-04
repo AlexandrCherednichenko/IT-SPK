@@ -1,9 +1,15 @@
+$blue-color: #00feff;
+$dark-blue: #002047;
+
 body {
    font: 400 18px/25px "Montserrat";
 }
 a {
    color: inherit;
    text-decoration: none;
+}
+li {
+   list-style: none;
 }
 
 @import "_header";

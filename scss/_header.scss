@@ -4,4 +4,96 @@
    background-size: cover;
    background-repeat: no-repeat;
    height: 560px;
+   padding-top: 36px;
+   color: #ffffff;
+
+   &__menu {
+      margin-bottom: 76px;
+      &-logo {
+         display: flex;
+
+         .language {
+            font-size: 11px;
+            line-height: 15px;
+            font-weight: 700;
+            height: 27px;
+            color: $blue-color;
+            border: 1px solid $blue-color;
+            border-radius: 50%;
+            padding: 8px 5px 6px;
+            margin-left: 50px;
+            p {
+               transform: translateY(-3px);
+            }
+         }
+      }
+
+      &-nav {
+         text-align: center;
+         a + a {
+            margin-left: 39px;
+         }
+      }
+
+      &-phone {
+         font-size: 12px;
+         line-height: 14px;
+         text-align: right;
+         .phone-item {
+            margin-bottom: 0px;
+            a {
+               font-size: 17px;
+               line-height: 20px;
+               font-weight: 700;
+               margin-left: 10px;
+            }
+         }
+      }
+   }
+
+   &__content {
+      margin-bottom: 28px;
+      &-title {
+         font-size: 50px;
+         line-height: 55px;
+         font-weight: 900;
+         color: $blue-color;
+         margin-bottom: 57px;
+      }
+
+      &-subtitle {
+         line-height: 18px;
+         font-weight: 900;
+         color: $blue-color;
+      }
+
+      &-price {
+         width: 200px;
+         span {
+            font-size: 24px;
+            line-height: 33px;
+            font-weight: 700;
+         }
+      }
+   }
+
+   &__bottom {
+      justify-content: space-between;
+
+      &-btn {
+         width: 253px;
+         height: 50px;
+         border: 0;
+         color: $dark-blue;
+         background-color: $blue-color;
+         img {
+            margin-left: 10px;
+         }
+      }
+
+      &-info {
+         font-size: 14px;
+         line-height: 19px;
+      }
+   }
 }
