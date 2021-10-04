@@ -11,6 +11,17 @@ li {
   list-style: none;
 }
 
+.title {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #001e42;
+}
+
+.text {
+  color: #252d37;
+}
+
 .header {
   background-image: url(../images/top-bg.jpg);
   background-position: center;
@@ -122,4 +133,8 @@ li {
 .header__bottom-info {
   font-size: 14px;
   line-height: 19px;
+}
+
+.about {
+  padding: 97px 0 61px 0;
 }

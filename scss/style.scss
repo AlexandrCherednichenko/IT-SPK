@@ -1,5 +1,7 @@
 $blue-color: #00feff;
 $dark-blue: #002047;
+$title-color: #001e42;
+$text-color: #252d37;
 
 body {
    font: 400 18px/25px "Montserrat";
@@ -11,5 +13,16 @@ a {
 li {
    list-style: none;
 }
+.title {
+   font-size: 50px;
+   line-height: 60px;
+   font-weight: 700;
+   color: $title-color;
+}
+.text {
+   color: $text-color;
+}
 
 @import "_header";
+
+@import "_about";
