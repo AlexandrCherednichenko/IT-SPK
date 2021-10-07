@@ -1,0 +1,33 @@
+.services {
+   &__title {
+      margin-bottom: 52px;
+   }
+
+   &__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 63px;
+   }
+
+   &__item-icon {
+      margin-right: 40px;
+      position: relative;
+      &::before {
+         content: "";
+         position: absolute;
+         z-index: -1;
+         top: 13px;
+         left: 10px;
+         width: 63px;
+         height: 53px;
+         background: #00feff;
+      }
+   }
+
+   &__item-title {
+      font-weight: 700;
+      color: $dark-blue;
+      width: 210px;
+      transform: translateY(15px);
+   }
+}

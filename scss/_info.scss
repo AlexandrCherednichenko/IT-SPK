@@ -1,0 +1,25 @@
+.info {
+   &__title {
+      h5 {
+         font-size: 24px;
+         line-height: 29px;
+         font-weight: 700;
+         color: $title-color;
+         margin-bottom: 31px;
+      }
+   }
+
+   &__text {
+      margin-bottom: 42px;
+      &:first-child {
+         padding-right: 30px;
+      }
+      &:last-child {
+         padding-left: 30px;
+      }
+   }
+
+   &__btn {
+      margin-bottom: 125px;
+   }
+}
