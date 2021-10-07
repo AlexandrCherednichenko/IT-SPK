@@ -1,0 +1,22 @@
+.client {
+   margin-bottom: 66px;
+   &__title {
+      margin-bottom: 25px;
+   }
+
+   .column-5 {
+      justify-content: space-between;
+      .col-md-1 {
+         width: 0%;
+         display: none;
+      }
+   }
+   .column-5 {
+      .col-md-2 {
+         width: 162px;
+         img {
+            width: 162px;
+         }
+      }
+   }
+}

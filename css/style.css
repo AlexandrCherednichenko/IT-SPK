@@ -378,3 +378,30 @@ li {
 .price__item + .price__item {
   margin-left: 10px;
 }
+
+.client {
+  margin-bottom: 66px;
+}
+
+.client__title {
+  margin-bottom: 25px;
+}
+
+.client .column-5 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.client .column-5 .col-md-1 {
+  width: 0%;
+  display: none;
+}
+
+.client .column-5 .col-md-2 {
+  width: 162px;
+}
+
+.client .column-5 .col-md-2 img {
+  width: 162px;
+}
