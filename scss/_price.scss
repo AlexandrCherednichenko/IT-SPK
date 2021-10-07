@@ -1,0 +1,67 @@
+.price {
+   padding-bottom: 97px;
+   &__text {
+      padding-top: 33px;
+   }
+
+   &__btn {
+      margin-top: 15px;
+      button {
+         font-size: 14px;
+         line-height: 17px;
+         font-weight: 700;
+         letter-spacing: 0.05em;
+         color: $title-color;
+         background-color: inherit;
+         border: 2px solid #001e42;
+         padding: 14px 23px;
+         margin-right: 24px;
+         img {
+            margin-left: 10px;
+         }
+         &:hover {
+            transform: scale(1.03);
+            transition: 0.3s;
+            background-color: #f2f2f2;
+            box-shadow: 5px 5px 6px 1px #f2f2f2;
+         }
+      }
+   }
+
+   &__items {
+      .row {
+         justify-content: end;
+      }
+   }
+
+   &__item {
+      text-align: center;
+      width: 259px;
+      color: $title-color;
+      padding: 38px 19px 40px 19px;
+      border: 2px solid #001e42;
+      &-title {
+         margin-bottom: 16px;
+      }
+
+      &-name {
+         font-size: 26px;
+         line-height: 36px;
+         margin-bottom: 6px;
+      }
+
+      &-price {
+         margin-bottom: 28px;
+         span {
+            font-size: 70px;
+            line-height: 80px;
+         }
+      }
+
+      &-text {
+      }
+      & + .price__item {
+         margin-left: 10px;
+      }
+   }
+}

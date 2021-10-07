@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 li {
   list-style: none;
 }
@@ -15,11 +19,16 @@ li {
   font-size: 50px;
   line-height: 60px;
   font-weight: 700;
+  margin-bottom: 0px;
   color: #001e42;
 }
 
 .text {
   color: #252d37;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .header {
@@ -293,4 +302,79 @@ li {
 
 .goals__item:nth-child(3)::before {
   content: "3";
+}
+
+.price {
+  padding-bottom: 97px;
+}
+
+.price__text {
+  padding-top: 33px;
+}
+
+.price__btn {
+  margin-top: 15px;
+}
+
+.price__btn button {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #001e42;
+  background-color: inherit;
+  border: 2px solid #001e42;
+  padding: 14px 23px;
+  margin-right: 24px;
+}
+
+.price__btn button img {
+  margin-left: 10px;
+}
+
+.price__btn button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 5px 5px 6px 1px #f2f2f2;
+          box-shadow: 5px 5px 6px 1px #f2f2f2;
+}
+
+.price__items .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.price__item {
+  text-align: center;
+  width: 259px;
+  color: #001e42;
+  padding: 38px 19px 40px 19px;
+  border: 2px solid #001e42;
+}
+
+.price__item-title {
+  margin-bottom: 16px;
+}
+
+.price__item-name {
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 6px;
+}
+
+.price__item-price {
+  margin-bottom: 28px;
+}
+
+.price__item-price span {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.price__item + .price__item {
+  margin-left: 10px;
 }
