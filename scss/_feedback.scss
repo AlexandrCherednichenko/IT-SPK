@@ -1,0 +1,88 @@
+.feedback {
+   background: url(../images/feedback-bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 50px 0 35px 0;
+
+   &__text {
+      font-size: 36px;
+      line-height: 43px;
+      font-weight: 700;
+      color: #ffffff;
+      p {
+         margin-left: auto;
+         margin-right: auto;
+         width: 347px;
+      }
+   }
+
+   &__form {
+      input {
+         &#name,
+         &#phone,
+         &#email {
+            width: 343px;
+            border: none;
+            background-color: #ececec;
+            margin-bottom: 17px;
+            padding: 9px 20px;
+            &::placeholder {
+               color: $title-color;
+            }
+         }
+      }
+      textarea {
+         resize: none;
+         width: 343px;
+         border: none;
+         background-color: #ececec;
+         margin-bottom: 17px;
+         padding: 9px 20px;
+         &::placeholder {
+            color: $title-color;
+         }
+      }
+      label {
+         margin-bottom: 17px;
+         .checkbox {
+            display: none;
+            &:checked {
+               & + .fake::after {
+                  transition: 0.3s;
+                  opacity: 1;
+               }
+            }
+         }
+         .fake {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #ffffff;
+            margin-right: 10px;
+            transform: translateY(6px);
+            position: relative;
+            &::after {
+               content: "";
+               display: block;
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 10px;
+               height: 10px;
+               background-color: $title-color;
+               transform: translate(50%, 50%);
+               transition: 0.3s;
+               opacity: 0;
+            }
+         }
+         .checkbox-text {
+            font-size: 10px;
+            line-height: 14px;
+            color: #a5aaaf;
+         }
+      }
+      .button {
+         width: 343px;
+      }
+   }
+}

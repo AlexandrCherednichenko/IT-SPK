@@ -29,6 +29,19 @@ li {
 .bold {
    font-weight: 700;
 }
+.button {
+   width: 253px;
+   height: 50px;
+   border: 0;
+   font-size: 14px;
+   line-height: 18px;
+   font-weight: 700;
+   color: $dark-blue;
+   background-color: $blue-color;
+   img {
+      margin-left: 10px;
+   }
+}
 
 @import "_header";
 @import "_about";
@@ -37,3 +50,5 @@ li {
 @import "_goals";
 @import "_price";
 @import "_client";
+@import "_dopinfo";
+@import "_feedback";
