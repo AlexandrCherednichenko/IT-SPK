@@ -1,0 +1,38 @@
+.footer {
+   padding: 28px 0px;
+   color: #ffffff;
+   background-color: #06182f;
+   &__email {
+      margin-bottom: 16px;
+   }
+
+   &__phone {
+      p {
+         font-size: 12px;
+         line-height: 15px;
+         &:first-child {
+            margin-bottom: 5px;
+         }
+      }
+      a {
+         font-size: 18px;
+         line-height: 22px;
+         font-weight: 700;
+         margin-right: 10px;
+      }
+   }
+
+   &__text {
+      text-align: right;
+      color: $blue-color;
+      margin-bottom: 19px;
+      p {
+         margin-left: auto;
+         max-width: 300px;
+      }
+   }
+
+   &__copy {
+      text-align: right;
+   }
+}

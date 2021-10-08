@@ -441,6 +441,7 @@ li {
 }
 
 .feedback__text p {
+  margin-top: 52px;
   margin-left: auto;
   margin-right: auto;
   width: 347px;
@@ -544,4 +545,45 @@ li {
 
 .feedback__form .button {
   width: 343px;
+}
+
+.footer {
+  padding: 28px 0px;
+  color: #ffffff;
+  background-color: #06182f;
+}
+
+.footer__email {
+  margin-bottom: 16px;
+}
+
+.footer__phone p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__phone p:first-child {
+  margin-bottom: 5px;
+}
+
+.footer__phone a {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.footer__text {
+  text-align: right;
+  color: #00feff;
+  margin-bottom: 19px;
+}
+
+.footer__text p {
+  margin-left: auto;
+  max-width: 300px;
+}
+
+.footer__copy {
+  text-align: right;
 }
