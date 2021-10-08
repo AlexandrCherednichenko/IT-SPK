@@ -95,6 +95,8 @@ li {
   border-radius: 50%;
   padding: 8px 5px 6px;
   margin-left: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .header__menu-logo .language p {

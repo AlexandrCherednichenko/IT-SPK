@@ -160,6 +160,12 @@
       fill: #001e42;
    }
 
+   .language.active {
+      transition: 0.5s;
+      color: #001e42;
+      border: 1px solid #001e42;
+   }
+
    .about {
       padding: 25px 0 25px 0;
    }
