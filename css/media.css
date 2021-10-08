@@ -1,0 +1,298 @@
+@media (max-width: 1200px) {
+   .feedback__text p {
+      margin-top: 0px;
+      margin-bottom: 20px;
+   }
+   .feedback__form {
+      display: inline-grid;
+      justify-content: center;
+   }
+}
+@media (max-width: 992px) {
+   .header {
+      height: 460px;
+   }
+   .header__menu {
+      margin-bottom: 70px;
+   }
+   .header__menu-nav .nav__menu {
+      margin-left: 0px;
+   }
+   .header__menu-nav .nav__menu-list li + li {
+      margin-left: 15px;
+   }
+   .header__menu-logo .language {
+      margin-left: 20px;
+   }
+   .header__content-title {
+      font-size: 40px;
+      line-height: 37px;
+      margin-bottom: 27px;
+   }
+
+   .about {
+      padding: 40px 0 40px 0;
+   }
+   .title {
+      font-size: 35px;
+      line-height: 40px;
+      font-weight: 700;
+      margin-bottom: 10px;
+   }
+
+   .services__title {
+      margin-bottom: 15px;
+   }
+   .services__item {
+      margin-bottom: 20px;
+   }
+
+   .info__title h5 {
+      margin-bottom: 20px;
+   }
+   .info__text {
+      margin-bottom: 20px;
+   }
+   .info__text:first-child {
+      padding-right: 0px;
+   }
+   .info__text:last-child {
+      padding-left: 12px;
+   }
+   .info__btn {
+      margin-bottom: 25px;
+   }
+
+   .goals {
+      margin-bottom: 40px;
+   }
+   .goals__item {
+      margin-bottom: 40px;
+   }
+
+   .price__btn {
+      margin-top: 15px;
+      margin-bottom: 20px;
+   }
+   .price__items .row {
+      justify-content: space-around;
+   }
+
+   .client {
+      margin-bottom: 30px;
+   }
+   .client__title {
+      margin-bottom: 0px;
+      text-align: center;
+   }
+   .client .column-5 {
+      justify-content: space-around;
+   }
+
+   .dopinfo__title {
+      margin-bottom: 10px;
+   }
+   .dopinfo__text {
+      margin-bottom: 25px;
+   }
+}
+
+@media (max-width: 768px) {
+   .header {
+      padding-top: 15px;
+   }
+   .header__menu-logo {
+      z-index: 5;
+   }
+   .burger-menu {
+      display: block;
+      justify-content: center;
+      position: absolute;
+      top: 20px;
+      right: 30px;
+   }
+   .burger-menu::before,
+   .burger-menu::after,
+   .burger-menu span {
+      background-color: #00feff;
+   }
+   .header__menu-nav {
+      overflow: auto;
+      display: inline;
+      position: absolute;
+      top: -100%;
+      left: 0px;
+      z-index: 3;
+      color: #001e42;
+      background-color: #ffffff;
+      width: 100%;
+      height: 100%;
+      transition: 0.5s;
+   }
+   .header__menu-nav.active {
+      top: 0px;
+      transition: 0.5s;
+   }
+   .header__menu-nav .nav__menu {
+      text-align: center;
+      margin-top: 120px;
+   }
+   .header__menu-nav .menu__phone {
+      text-align: center;
+      margin-top: 40px;
+   }
+   .header__menu-nav .nav__menu-list {
+      display: inline-block;
+   }
+   .header__menu-nav .nav__menu-list li + li {
+      margin-left: 0px;
+      margin-top: 30px;
+   }
+   .header__bottom-info {
+      margin-top: 15px;
+   }
+   #logo-icon.active path:nth-child(1),
+   #logo-icon.active path:nth-child(2),
+   #logo-icon.active path:nth-child(3) {
+      fill: #00feff;
+   }
+   #logo-icon.active path {
+      fill: #001e42;
+   }
+
+   .about {
+      padding: 25px 0 25px 0;
+   }
+   .title {
+      font-size: 35px;
+      line-height: 40px;
+      font-weight: 700;
+   }
+   .text {
+      font-size: 16px;
+      line-height: 20px;
+   }
+
+   .services__item-icon {
+      margin-right: 20px;
+   }
+
+   .goals {
+      margin-bottom: 10px;
+   }
+   .goals__title img {
+      width: 100px;
+   }
+   .goals__title h4 {
+      font-size: 30px;
+      line-height: 30px;
+   }
+   .goals__subtitle {
+      padding-top: 10px;
+      padding-bottom: 50px;
+      text-align: center;
+   }
+   .goals__subtitle p {
+      width: 100%;
+   }
+   .goals__text {
+      margin-bottom: 35px;
+      text-align: center;
+   }
+
+   .price {
+      padding-bottom: 40px;
+   }
+   .price__item {
+      margin-left: 0px;
+      margin-top: 20px;
+   }
+   .price__item + .price__item {
+      margin-left: 0px;
+   }
+
+   .feedback__text {
+      font-size: 26px;
+      line-height: 28px;
+      text-align: center;
+   }
+
+   .footer {
+      padding: 14px 0px;
+      text-align: center;
+   }
+   .footer__phone {
+      margin-bottom: 20px;
+   }
+   .footer__text {
+      text-align: center;
+      color: #00feff;
+      margin-bottom: 19px;
+   }
+   .footer__text p {
+      margin-left: auto;
+      max-width: 100%;
+      margin-right: auto;
+   }
+   .footer__copy {
+      text-align: center;
+   }
+}
+
+@media (max-width: 470px) {
+   .header__menu {
+      margin-bottom: 50px;
+   }
+   .header__content-title {
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 20px;
+   }
+   .header__content {
+      margin-bottom: 10px;
+   }
+   .button {
+      width: 190px;
+      height: 40px;
+   }
+   .burger-menu {
+      right: 10px;
+   }
+
+   .title {
+      font-size: 28px;
+   }
+
+   .price__btn button {
+      margin-right: 0px;
+      margin-top: 20px;
+   }
+
+   .feedback__form input#name,
+   .feedback__form input#phone,
+   .feedback__form input#email {
+      width: 300px;
+   }
+   .feedback__form textarea {
+      width: 300px;
+   }
+   .feedback__form .button {
+      width: 300px;
+   }
+   .feedback__text p {
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+   }
+}
+
+@media (max-width: 370px) {
+   .price__btn {
+      text-align: center;
+   }
+   .price__btn button {
+      margin-right: 0px;
+      margin-top: 20px;
+   }
+}

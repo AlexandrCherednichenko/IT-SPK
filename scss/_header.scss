@@ -11,7 +11,10 @@
       margin-bottom: 76px;
       &-logo {
          display: flex;
-
+         .logo {
+            width: 126px;
+            height: 42px;
+         }
          .language {
             font-size: 11px;
             line-height: 15px;
@@ -27,26 +30,32 @@
             }
          }
       }
-
       &-nav {
-         text-align: center;
-         a + a {
-            margin-left: 39px;
+         display: flex;
+         justify-content: space-between;
+         .nav__menu {
+            margin-left: 70px;
+            &-list {
+               display: flex;
+               li + li {
+                  margin-left: 39px;
+               }
+            }
          }
-      }
-
-      &-phone {
-         font-size: 12px;
-         line-height: 14px;
-         text-align: right;
-         .phone-item {
-            margin-bottom: 0px;
+         .menu__phone {
+            text-align: right;
+            font-size: 12px;
+            line-height: 14px;
             a {
                font-size: 17px;
-               line-height: 20px;
+               line-height: 21px;
                font-weight: 700;
                margin-left: 10px;
             }
+         }
+
+         &.active {
+            display: inline-block;
          }
       }
    }
@@ -59,6 +68,7 @@
          font-weight: 900;
          color: $blue-color;
          margin-bottom: 57px;
+         width: 600px;
       }
 
       &-subtitle {
